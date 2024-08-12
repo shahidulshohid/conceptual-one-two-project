@@ -1,0 +1,37 @@
+/* navbar design starts here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+.nav-container {
+    box-shadow: 0 4px 4px rgba(55, 50, 50, 0.085);
+}
+.nav-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+.nav-left span {
+    color: #FF42A5;
+    margin-left: 10px;
+}
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+.btn-follow {
+    padding: 7px 15px;
+    background-color: rgb(158, 151, 173);
+    border-radius: 7px;
+}
+/* header design starts here */
