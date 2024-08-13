@@ -1,9 +1,15 @@
-/* navbar design starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing:border-box
 }
+body {
+    font-family: "Work Sans", sans-serif;
+}
+/* navbar design starts here */
 .nav-container {
     box-shadow: 0 4px 4px rgba(55, 50, 50, 0.085);
 }
@@ -35,3 +41,47 @@
     border-radius: 7px;
 }
 /* header design starts here */
+.header-container {
+    background-image: url(../images/Group\ 14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.header-left {
+    width: 50%;
+}
+.goat {
+    font-size: 55px;
+    background-image: linear-gradient(#f94882, #8758f1);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 4px rgb(0, 0, 0.300);
+}
+.overly {
+    text-shadow: none;
+}
+.header-right {
+    width: 50%;
+}
+.header-right img{
+    width: 100%;
+}
+.header-btn1, .header-btn2 {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.header-btn1 {
+    background-color: rgba(255, 66, 165, 1);
+    margin-right:10px
+}
+.header-btn2 {
+    background-color: rgba(78, 197, 247, 1);
+}
