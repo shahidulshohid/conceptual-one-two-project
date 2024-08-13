@@ -92,6 +92,54 @@ body {
 .header-btn2 {
     background-color: rgba(78, 197, 247, 1);
 }
+/* gammer section design starts here  */
+.gammer-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.gammer-left {
+    width: 45%;
+}
+.gammer-left img {
+    width: 100%;
+}
+.gammer-right {
+    width: 45%;
+    text-align: right;
+}
+.gammer-right .gammer-right-title {
+    background-image: linear-gradient(rgb(249, 72, 130), rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+.gammer-right .gammer-right-description {
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(83, 76, 100, 1);
+    margin-top: 10px;
+}
+.gammer-btn {
+    background-color: rgba(255, 66, 165, 1);
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 15px 0;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.gammer-small {
+    color: rgb(100, 80, 80);
+    margin-bottom: 10px;
+}
+.gammer-span {
+    color: black;
+    font-size: 18px;
+}
 /* online game design starts here */
 .online-main {
     max-width: 1200px;

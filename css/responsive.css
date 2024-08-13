@@ -26,6 +26,30 @@
         width: 80%;
         margin-bottom: 60px;
     }
+    /* gammer section responsive here */
+    .gammer-main {
+        flex-direction: column;
+    }
+    .gammer-left {
+        width: 80%;
+    }
+    .gammer-right {
+        width: 70%;
+        text-align: center;
+        /* margin-top: 30px; */
+    }
+    .gammer-right .gammer-right-title {
+        font-size: 1.5rem;
+    }
+    .gammer-right .gammer-right-description {
+        font-size: 14px;
+    }
+    .gammer-btn {
+        font-size: 12px;
+    }
+    .gammer-span {
+        font-size: 16px;
+    }
     /* online card responsive here */
     .online-main {
         grid-template-areas: 
