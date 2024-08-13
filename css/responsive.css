@@ -49,4 +49,8 @@
     .play-right {
         width: 70%;
     }
+    /* category section responsive here */
+    .category-child {
+        flex-basis: 150px;
+    }
 }

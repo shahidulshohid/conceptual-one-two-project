@@ -78,10 +78,12 @@ body {
     width: 100%;
 }
 .header-btn1, .header-btn2 {
-    padding: 10px 15px;
+    padding: 14px 35px;
     border: none;
     border-radius: 25px;
-    margin-top: 10px;
+    margin-top: 22px;
+    color: white;
+    font-size: 1rem;
 }
 .header-btn1 {
     background-color: rgba(255, 66, 165, 1);
@@ -148,7 +150,6 @@ body {
 .play-main {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
     margin-top: 70px;
     margin-bottom: 8cqh;
     display: flex;
@@ -158,11 +159,9 @@ body {
 }
 .play-left {
     width: 40%;
-    border: 1px solid red;
 }
 .play-right {
     width: 40%;
-    border: 1px solid red;
     position: relative;
 }
 .play-right img{
@@ -174,4 +173,27 @@ body {
     height: 200px;
     bottom: -60px;
     left: -70px;
+}
+/* category section design here  */
+.category-main {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.category-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    flex-basis: 200px;
+    font-size: 12px;
+}
+.category-child img{
+    width: 40px;
+}
+.category-child:hover {
+    outline: 1px solid red;
 }
