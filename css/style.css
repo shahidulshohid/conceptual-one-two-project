@@ -30,6 +30,10 @@ body {
     color: #FF42A5;
     margin-left: 10px;
 }
+.nav-right {
+    display: flex;
+    gap: 20px;
+}
 .nav-btn {
     background-color: transparent;
     border: none;
@@ -52,6 +56,7 @@ body {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    margin-bottom: 60px;
 }
 .header-left {
     width: 50%;
@@ -84,4 +89,57 @@ body {
 }
 .header-btn2 {
     background-color: rgba(78, 197, 247, 1);
+}
+/* online game design starts here */
+.online-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-areas: 
+    "a b c d"
+    ;
+    gap: 10px;
+}
+.online-cart img {
+    width: 100%;
+}
+.card-1 {
+    grid-area: a;
+}
+.card-2 {
+    grid-area: b;
+}
+.card-3 {
+    grid-area: c;
+}
+.card-4 {
+    grid-area: d;
+}
+.online-cart {
+    position: relative;
+}
+.watch-now {
+    position: absolute;
+    text-align: center;
+    top: 38%;
+    left: 38%;
+    display: none;
+}
+.watch-now span {
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.watch-now p {
+    color: rgb(154, 22, 22);
+}
+.online-cart img:hover+.watch-now {
+    display: block;
+}
+.online-cart img:hover {
+    filter:brightness(50%);
+}
+.online-cart:hover .watch-now{
+    display: block;
 }

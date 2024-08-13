@@ -1,7 +1,41 @@
-@media screen and (max-wid: 576px) {
+@media screen and (max-width: 576px) {
     
     /* navbar responsive here  */
     .nav-main {
         flex-direction: column;
+        gap: 24px;
+    }
+    .nav-right {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-container {
+        box-shadow: none;
+    }
+    /* header responsive here  */
+    .header-main {
+        flex-direction: column-reverse;
+        margin-top: 70px;
+    }
+    .header-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .header-right {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    /* online card responsive here */
+    .online-main {
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        ;
+        width: 80%;
+        margin: 0 auto;
+        gap: 30px;
     }
 }
