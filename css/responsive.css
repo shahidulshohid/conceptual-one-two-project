@@ -38,4 +38,15 @@
         margin: 0 auto;
         gap: 30px;
     }
+    /* play instantly responsive here  */
+    .play-main {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .play-left {
+        width: 70%;
+    }
+    .play-right {
+        width: 70%;
+    }
 }

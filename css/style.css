@@ -143,3 +143,35 @@ body {
 .online-cart:hover .watch-now{
     display: block;
 }
+
+/* play instanly design here  */
+.play-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-top: 70px;
+    margin-bottom: 8cqh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.play-left {
+    width: 40%;
+    border: 1px solid red;
+}
+.play-right {
+    width: 40%;
+    border: 1px solid red;
+    position: relative;
+}
+.play-right img{
+    width: 100%;
+}
+.play-right .biral {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    bottom: -60px;
+    left: -70px;
+}
