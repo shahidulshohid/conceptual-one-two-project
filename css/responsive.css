@@ -104,4 +104,11 @@
     .category-child {
         flex-basis: 150px;
     }
+    /* footer section responsive here  */
+    .social-icons {
+        max-width: 212px;
+    }
+    .privacy-setting {
+        max-width: 380px;
+    }
 }
