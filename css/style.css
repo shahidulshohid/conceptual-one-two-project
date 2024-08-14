@@ -1,288 +1,327 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 /* navbar design starts here */
 .nav-container {
-    box-shadow: 0 4px 4px rgba(55, 50, 50, 0.085);
+  box-shadow: 0 4px 4px rgba(55, 50, 50, 0.085);
 }
 .nav-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
 }
 .nav-left {
-    display: flex;
-    align-items: center;
-    font-size: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
 }
 .nav-left span {
-    color: #FF42A5;
-    margin-left: 10px;
+  color: #ff42a5;
+  margin-left: 10px;
 }
 .nav-right {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .nav-btn {
-    background-color: transparent;
-    border: none;
-    font-size: 18px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
 }
 .btn-follow {
-    padding: 7px 15px;
-    background-color: rgb(158, 151, 173);
-    border-radius: 7px;
+  padding: 7px 15px;
+  background-color: rgb(158, 151, 173);
+  border-radius: 7px;
 }
 /* header design starts here */
 .header-container {
-    background-image: url(../images/Group\ 14.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../images/Group\ 14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    margin-bottom: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
 }
 .header-left {
-    width: 50%;
+  width: 50%;
 }
 .goat {
-    font-size: 55px;
-    background-image: linear-gradient(#f94882, #8758f1);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 0px 2px 4px rgb(0, 0, 0.300);
+  font-size: 55px;
+  background-image: linear-gradient(#f94882, #8758f1);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 2px 4px rgb(0, 0, 0.3);
 }
 .overly {
-    text-shadow: none;
+  text-shadow: none;
 }
 .header-right {
-    width: 50%;
+  width: 50%;
 }
-.header-right img{
-    width: 100%;
+.header-right img {
+  width: 100%;
 }
-.header-btn1, .header-btn2 {
-    padding: 14px 35px;
-    border: none;
-    border-radius: 25px;
-    margin-top: 22px;
-    color: white;
-    font-size: 1rem;
+.header-btn1,
+.header-btn2 {
+  padding: 14px 35px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 22px;
+  color: white;
+  font-size: 1rem;
 }
 .header-btn1 {
-    background-color: rgba(255, 66, 165, 1);
-    margin-right:10px
+  background-color: rgba(255, 66, 165, 1);
+  margin-right: 10px;
 }
 .header-btn2 {
-    background-color: rgba(78, 197, 247, 1);
+  background-color: rgba(78, 197, 247, 1);
 }
 /* gammer section design starts here  */
 .gammer-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
 }
 .gammer-left {
-    width: 45%;
+  width: 45%;
 }
 .gammer-left img {
-    width: 100%;
+  width: 100%;
 }
 .gammer-right {
-    width: 45%;
-    text-align: right;
+  width: 45%;
+  text-align: right;
 }
 .gammer-right .gammer-right-title {
-    background-image: linear-gradient(rgb(249, 72, 130), rgb(135, 88, 241));
-    background-clip: text;
-    color: transparent;
-    font-size: 2rem;
+  background-image: linear-gradient(rgb(249, 72, 130), rgb(135, 88, 241));
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
 }
 .gammer-right .gammer-right-description {
-    font-size: 18px;
-    font-weight: 400;
-    color:rgba(83, 76, 100, 1);
-    margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(83, 76, 100, 1);
+  margin-top: 10px;
 }
 .gammer-btn {
-    background-color: rgba(255, 66, 165, 1);
-    padding: 10px 20px;
-    border-radius: 25px;
-    margin: 15px 0;
-    border: none;
-    color: white;
-    margin-bottom: 20px;
+  background-color: rgba(255, 66, 165, 1);
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 15px 0;
+  border: none;
+  color: white;
+  margin-bottom: 20px;
 }
 .gammer-small {
-    color: rgb(100, 80, 80);
-    margin-bottom: 10px;
+  color: rgb(100, 80, 80);
+  margin-bottom: 10px;
 }
 .gammer-span {
-    color: black;
-    font-size: 18px;
+  color: black;
+  font-size: 18px;
 }
 /* online game design starts here */
 .online-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 80px;
-    
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 .online-content-title {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 15xp;
-    margin-bottom: 10px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 15xp;
+  margin-bottom: 10px;
 }
-.online-content-title span{
-    background-image: linear-gradient(rgba(249, 72, 178, 1),
-    rgba(135, 88, 241, 1));
-    background-clip: text;
-    color: transparent;
+.online-content-title span {
+  background-image: linear-gradient(
+    rgba(249, 72, 178, 1),
+    rgba(135, 88, 241, 1)
+  );
+  background-clip: text;
+  color: transparent;
 }
 .online-content-description {
-    text-align: center;
-    font-size: 12px;
-    color: rgba(83, 76, 100, 1);
-    margin-bottom: 25px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(83, 76, 100, 1);
+  margin-bottom: 25px;
 }
 .online-card-container {
-    display: grid;
-    grid-template-areas: 
-    "a b c d"
-    ;
-    gap: 15px;
+  display: grid;
+  grid-template-areas: "a b c d";
+  gap: 15px;
 }
 .online-cart img {
-    width: 100%;
+  width: 100%;
 }
 .card-1 {
-    grid-area: a;
+  grid-area: a;
 }
 .card-2 {
-    grid-area: b;
+  grid-area: b;
 }
 .card-3 {
-    grid-area: c;
+  grid-area: c;
 }
 .card-4 {
-    grid-area: d;
+  grid-area: d;
 }
 .online-cart {
-    position: relative;
+  position: relative;
 }
 .watch-now {
-    position: absolute;
-    text-align: center;
-    top: 38%;
-    left: 38%;
-    display: none;
+  position: absolute;
+  text-align: center;
+  top: 38%;
+  left: 38%;
+  display: none;
 }
 .watch-now span {
-    color: white;
-    font-size: 30px;
-    border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  border-radius: 50%;
 }
 .watch-now p {
-    color: rgb(154, 22, 22);
+  color: rgb(154, 22, 22);
 }
-.online-cart img:hover+.watch-now {
-    display: block;
+.online-cart img:hover + .watch-now {
+  display: block;
 }
 .online-cart img:hover {
-    filter:brightness(50%);
+  filter: brightness(50%);
 }
-.online-cart:hover .watch-now{
-    display: block;
+.online-cart:hover .watch-now {
+  display: block;
 }
 .online-card-description {
-    font-size: 14px;
-    margin-top: 8px;
-    color: rgba(83, 76, 100, 1);
-    ;
+  font-size: 14px;
+  margin-top: 8px;
+  color: rgba(83, 76, 100, 1);
 }
 
 /* play instanly design here  */
 .play-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 70px;
-    margin-bottom: 8cqh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 8cqh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .play-left {
-    width: 40%;
-    text-align: right;
+  width: 40%;
+  text-align: right;
 }
 .play-left-title span {
-    background-image: linear-gradient(rgba(249, 72, 178, 1),
-    rgba(135, 88, 241, 1));
-    background-clip: text;
-    color: transparent;
+  background-image: linear-gradient(
+    rgba(249, 72, 178, 1),
+    rgba(135, 88, 241, 1)
+  );
+  background-clip: text;
+  color: transparent;
 }
 .play-left-description {
-    font-size: 12px;
-    color: rgb(91, 86, 86);
-    margin-top: 20px;
-    line-height: 20px;
+  font-size: 12px;
+  color: rgb(91, 86, 86);
+  margin-top: 20px;
+  line-height: 20px;
 }
 .play-right {
-    width: 40%;
-    position: relative;
+  width: 40%;
+  position: relative;
 }
-.play-right img{
-    width: 100%;
+.play-right img {
+  width: 100%;
 }
 .play-right .biral {
-	position: absolute;
-	width: 150px;
-	height: 181px;
-	bottom: -52px;
-	left: -70px;
+  position: absolute;
+  width: 150px;
+  height: 181px;
+  bottom: -52px;
+  left: -70px;
+}
+/* play second instanly design here */
+.play-second-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.play-second-left {
+  width: 40%;
+  position: relative;
+}
+.play-second-left img {
+  width: 100%;
+}
+.play-second-left .biral-second {
+  position: absolute;
+  width: 140px;
+  height: 160px;
+  bottom: -52px;
+  right: -66px;
+}
+.play-second-right {
+  width: 40%;
+}
+.play-second-right-title span {
+  background-image: linear-gradient(
+    rgba(249, 72, 178, 1),
+    rgba(135, 88, 241, 1)
+  );
+  background-clip: text;
+  color: transparent;
+}
+.play-second-right-description  {
+  font-size: 12px;
+  color: rgb(91, 86, 86);
+  margin-top: 20px;
+  line-height: 20px;
 }
 /* category section design here  */
 .category-main {
-    max-width: 1200px;
-    margin: 100px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    justify-content: center;
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
 }
 .category-child {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border-radius: 20px;
-    flex-basis: 200px;
-    font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  flex-basis: 200px;
+  font-size: 12px;
 }
-.category-child img{
-    width: 40px;
+.category-child img {
+  width: 40px;
 }
 .category-child:hover {
-    outline: 1px solid red;
+  outline: 1px solid red;
 }

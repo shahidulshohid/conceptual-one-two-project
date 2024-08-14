@@ -78,6 +78,17 @@
         height: 152px;
     }
     /*play-second instantly responsive here  */
+    .play-second-main {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .play-second-left {
+        width: 60%;
+    }
+    .play-second-right {
+        width: 60%;
+        text-align: center;
+    }
     /* category section responsive here */
     .category-child {
         flex-basis: 150px;
