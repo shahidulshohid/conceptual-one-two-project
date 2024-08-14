@@ -89,6 +89,17 @@
         width: 60%;
         text-align: center;
     }
+    /* careers section responsive here */
+    .careers-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .careers-left {
+        width: 80%;
+    }
+    .careers-right {
+        width: 80%;
+    }
     /* category section responsive here */
     .category-child {
         flex-basis: 150px;
