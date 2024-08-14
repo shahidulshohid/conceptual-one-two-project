@@ -145,11 +145,33 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 80px;
+    
+}
+.online-content-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 15xp;
+    margin-bottom: 10px;
+}
+.online-content-title span{
+    background-image: linear-gradient(rgba(249, 72, 178, 1),
+    rgba(135, 88, 241, 1));
+    background-clip: text;
+    color: transparent;
+}
+.online-content-description {
+    text-align: center;
+    font-size: 12px;
+    color: rgba(83, 76, 100, 1);
+    margin-bottom: 25px;
+}
+.online-card-container {
     display: grid;
     grid-template-areas: 
     "a b c d"
     ;
-    gap: 10px;
+    gap: 15px;
 }
 .online-cart img {
     width: 100%;
@@ -193,6 +215,12 @@ body {
 .online-cart:hover .watch-now{
     display: block;
 }
+.online-card-description {
+    font-size: 14px;
+    margin-top: 8px;
+    color: rgba(83, 76, 100, 1);
+    ;
+}
 
 /* play instanly design here  */
 .play-main {
@@ -207,6 +235,19 @@ body {
 }
 .play-left {
     width: 40%;
+    text-align: right;
+}
+.play-left-title span {
+    background-image: linear-gradient(rgba(249, 72, 178, 1),
+    rgba(135, 88, 241, 1));
+    background-clip: text;
+    color: transparent;
+}
+.play-left-description {
+    font-size: 12px;
+    color: rgb(91, 86, 86);
+    margin-top: 20px;
+    line-height: 20px;
 }
 .play-right {
     width: 40%;
@@ -216,11 +257,11 @@ body {
     width: 100%;
 }
 .play-right .biral {
-    position: absolute;
-    width: 180px;
-    height: 200px;
-    bottom: -60px;
-    left: -70px;
+	position: absolute;
+	width: 150px;
+	height: 181px;
+	bottom: -52px;
+	left: -70px;
 }
 /* category section design here  */
 .category-main {

@@ -36,7 +36,6 @@
     .gammer-right {
         width: 70%;
         text-align: center;
-        /* margin-top: 30px; */
     }
     .gammer-right .gammer-right-title {
         font-size: 1.5rem;
@@ -51,7 +50,7 @@
         font-size: 16px;
     }
     /* online card responsive here */
-    .online-main {
+    .online-card-container {
         grid-template-areas: 
         "a"
         "b"
@@ -68,11 +67,17 @@
         gap: 40px;
     }
     .play-left {
-        width: 70%;
+        width: 60%;
+        text-align: center;
     }
     .play-right {
-        width: 70%;
+        width: 60%;
     }
+    .play-right .biral {
+        width: 130px;
+        height: 152px;
+    }
+    /*play-second instantly responsive here  */
     /* category section responsive here */
     .category-child {
         flex-basis: 150px;
